@@ -35,8 +35,8 @@ Open `oxide/config/ScrapMultiplier.json` to modify the `ScrapMultiplier` value. 
 After editing the configuration file, reload the plugin to apply the changes:
 oxide.reload ScrapMultiplier
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-##Contact
+## Contact
 For any issues or contributions, please create an issue or pull request on the GitHub repository.
