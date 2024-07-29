@@ -28,7 +28,7 @@ Open `oxide/config/ScrapMultiplier.json` to modify the `ScrapMultiplier` value. 
 ```json
 {
   "ScrapMultiplier": 2.5
-}
+}```
 
 ScrapMultiplier: This value determines how much the amount of scrap will be multiplied. For example, a value of 2.5 will double the scrap amount found in crates.
 Reload the Plugin:
