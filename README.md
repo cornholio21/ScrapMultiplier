@@ -2,7 +2,7 @@
 
 ## Description
 
-**Scrap Multiplier** is a plugin for Rust that increases the amount of scrap found in crates. This plugin allows server administrators to configure a multiplier that scales the amount of scrap dropped from crates, enabling a customizable loot experience. By default, the plugin is set to a multiplier of 1.0, meaning no change to the amount of scrap. Adjusting the multiplier in the configuration file will scale the amount of scrap accordingly.
+**Scrap Multiplier** is a plugin for Rust that increases the amount of scrap found in crates. This plugin allows server administrators to configure a multiplier that scales the amount of scrap dropped from crates, without touching the loot tables. By default, the plugin is set to a multiplier of 1.0, meaning no change to the amount of scrap. Adjusting the multiplier in the configuration file will scale the amount of scrap accordingly.
 
 ## Installation
 
