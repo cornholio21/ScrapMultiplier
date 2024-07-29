@@ -23,7 +23,6 @@
 
 using Oxide.Core;
 using Oxide.Core.Plugins;
-using System;
 
 namespace Oxide.Plugins
 {
@@ -52,7 +51,14 @@ namespace Oxide.Plugins
         // Load configuration values
         private void LoadConfigValues()
         {
-            scrapMultiplier = float.Parse(Config["ScrapMultiplier"].ToString());
+            // Try to get the ScrapMultiplier value from the configuration
+            object configValue = Config["ScrapMultiplier"];
+            if (configValue == null || !float.TryParse(configValue.ToString(), out scrapMultiplier))
+            {
+                // Set default value if parsing fails or value is not present
+                scrapMultiplier = 1.0f;
+                PrintWarning("Invalid or missing configuration value for ScrapMultiplier. Using default value 1.0.");
+            }
         }
 
         // This hook is called when a crate's loot is generated
