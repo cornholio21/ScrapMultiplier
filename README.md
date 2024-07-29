@@ -25,18 +25,18 @@ The plugin will automatically create a configuration file named `ScrapMultiplier
 
 2. **Edit the Configuration File:**
 Open `oxide/config/ScrapMultiplier.json` to modify the `ScrapMultiplier` value. Here’s an example configuration file:
-```json
 {
-  "ScrapMultiplier": 2.5
-}```
+  "ScrapMultiplier": 2.0
+}
 
-ScrapMultiplier: This value determines how much the amount of scrap will be multiplied. For example, a value of 2.5 will double the scrap amount found in crates.
-Reload the Plugin:
+* ScrapMultiplier: This value determines how much the amount of scrap will be multiplied. For example, a value of 2.0 will increase the scrap amount found in crates by 2.0 times.
+
+2. **Reload the Plugin:**
 After editing the configuration file, reload the plugin to apply the changes:
-Code kopieren
 oxide.reload ScrapMultiplier
-License
+
+##License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Contact
+##Contact
 For any issues or contributions, please create an issue or pull request on the GitHub repository.
