@@ -19,7 +19,7 @@ Scrap Multiplier is a plugin for Rust that increases the amount of scrap found i
   "Scrap Multiplier": 2.0
 }
 
-        Scrap Multiplier: This value determines how much the amount of scrap will be multiplied. For example, a value of 2.0 will increase the scrap amount found in crates by 2.0 times.
+* Scrap Multiplier: This value determines how much the amount of scrap will be multiplied. For example, a value of 2.0 will increase the scrap amount found in crates by 2.0 times.
 
 3. **Reload the Plugin:** After editing the configuration file, reload the plugin to apply the changes:
 
