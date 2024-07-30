@@ -22,8 +22,7 @@ Scrap Multiplier is a plugin for Rust that increases the amount of scrap found i
 
 
 3. **Reload the Plugin:** After editing the configuration file, reload the plugin to apply the changes:
-
-`oxide.reload ScrapMultiplier`
+  `oxide.reload ScrapMultiplier`
 
 # License
 This project is licensed under the MIT License. See the LICENSE file for more details.
