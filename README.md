@@ -6,7 +6,6 @@ Scrap Multiplier is a plugin for Rust that increases the amount of scrap found i
 
 2. **Upload the Plugin:** Upload ScrapMultiplier.cs to the oxide/plugins directory on your Rust server.
 
-3. **Reload Oxide:** After uploading the plugin, you need to reload Oxide or restart your server. To manually reload the plugin, use the following command in your server console: oxide.reload ScrapMultiplier
 
 # Usage
 
