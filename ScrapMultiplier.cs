@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("ScrapMultiplier", "Cornholio21", "1.0.4")]
+    [Info("ScrapMultiplier", "Cornholio21", "1.0.5")]
     [Description("Multiplies the amount of scrap found in crates.")]
     public class ScrapMultiplier : RustPlugin
     {
