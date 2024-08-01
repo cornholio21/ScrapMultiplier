@@ -81,28 +81,9 @@ namespace Oxide.Plugins
             PrintWarning($"Repopulated loot in {affectedContainers} containers.");
         }
 
-        private void RestoreDefaultLoot()
-        {
-            int affectedContainers = 0;
-
-            foreach (var container in UnityEngine.Object.FindObjectsOfType<LootContainer>())
-            {
-                if (container == null || container.inventory == null)
-                {
-                    continue;
-                }
-
-                container.inventory.Clear();
-                container.SpawnLoot();
-                affectedContainers++;
-            }
-
-            PrintWarning($"Restored default loot in {affectedContainers} containers.");
-        }
-
         private void Unload()
         {
-            RestoreDefaultLoot();
+            RepopulateContainers();
         }
     }
 }
